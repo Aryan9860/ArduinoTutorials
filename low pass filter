@@ -1,0 +1,8 @@
+# Packages and adjustments to the figures
+from scipy import signal
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+plt.rcParams["figure.figsize"] = 10,5
+plt.rcParams["font.size"] = 16
+plt.rcParams.update({"text.usetex": True,"font.family": "sans-serif","font.sans-serif": ["Helvetica"]})
